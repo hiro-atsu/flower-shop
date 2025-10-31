@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ressun20</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ressun20.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-inview@1.1.2/jquery.inview.min.js"></script>
+    <script src="ressun20.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="#">
+                <img src="https://code-jump.com/demo/html/gallery/img/logo.svg" alt="">
+            </a>
+        </div>
+        <nav id="nav">
+            <ul class="menu">
+                <li><a href="#">TOP</a></li>
+                <li><a href="#information">INFORMATION</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#access">ACCESS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <div class="container">
+    <main>
+        <div id="main_img">
+            <img src="https://images.pexels.com/photos/34474041/pexels-photo-34474041.jpeg" alt="">
+            <img src="https://images.pexels.com/photos/34461220/pexels-photo-34461220.jpeg" alt="">
+            <img src="https://images.pexels.com/photos/34480014/pexels-photo-34480014.jpeg" alt="">
+        </div>
+        <h1 class="site_title fadein inview">Hello Flower!<br>FA EXHIBITION 2021</h1>
+        <section id="information" class="fadein inview">
+            <h2 class="sec_title inview fadein">INFORMATION</h2>
+            <p>
+                <span class="info-date-en">2021 JUL 1(THU)-3(SAT)</span>
+                <span class="info-time-en">DAY1 10am-6pm OTHER 10am-5:30pm</span>
+            </p>
+            <p class="info-place">at PARK SIDE HALL</p>
+            <p class="info-date-ja">
+                2021年7月1日(木)ー3日(土)<br>
+                Day1 10時〜18時　その他 10時〜17時30分
+            </p>
+        </section>
+        <div id="side-btn">
+          <a href="#">FOR VISITOR</a>
+          <a href="#">FOR EXHIBITOR</a>
+        </div>
+        <section id="gallery" class="wrapper">
+            <h2 class="sec_title inview fadein">GALLERY</h2>
+            <ul class="list">
+                <li><img class="inview fadein" src="https://images.pexels.com/photos/34480088/pexels-photo-34480088.jpeg" alt=""></li>
+                <li><img class="inview fadein" src="https://images.pexels.com/photos/34472795/pexels-photo-34472795.jpeg" alt=""></li>
+                <li><img class="inview fadein" src="https://images.pexels.com/photos/34447688/pexels-photo-34447688.jpeg" alt=""></li>
+                <li><img class="inview fadein" src="https://images.pexels.com/photos/34477614/pexels-photo-34477614.jpeg" alt=""></li>
+                <li><img class="inview fadein" src="https://images.pexels.com/photos/34461347/pexels-photo-34461347.jpeg" alt=""></li>
+                <li><img class="inview fadein" src="https://images.pexels.com/photos/34464751/pexels-photo-34464751.jpeg" alt=""></li>
+            </ul>
+        </section>
+        <section id="access">
+            <h2 class="sec_title">ACCESS</h2>
+            <p class="place">PARK SIDE HALL</p>
+            <p class="address">
+                〒152-0035 東京都目黒区自由が丘1-1-1 PARK SIDE HALL<br>
+                PARK SIDE HALL, 1-1-1 Jiyugaoka, Meguro-ku, Tokyo
+            </p>
+            <p class="cotact">
+                Tel: 03-1111-1111<br>
+                E-mail: info@xxxxxxx.jp
+            </p>
+             <a class="btn" href="#" target="_blank">GOOGLE MAP</a>
+        </section>
+        <section id="contact" class="wrapper">
+            <h2 class="sec_title">CONTACT</h2>
+            <a class="btn" href="#" target="_blank">出展に関するお問い合わせ</a>
+            <a class="btn" href="#" target="_blank">その他のお問い合わせ</a>
+        </section>
+        <div class="bg"></div>
+    </main>
+    <footer id="footer">
+        <div class="info">
+            <p>FA EXHIBITION</p>
+            <p>〒152-0035 東京都目黒区自由が丘1-1-1 PARK SIDE HALL</p>
+            <p>Tel: 03-1111-1111<br>
+                E-mail: info@xxxxxxx.jp
+            </p>
+            <ul class="sns">
+                <li><a href="#" target="_blank">Twitter</a></li>
+                <li><a href="#" target="_blank">Facebook</a></li>
+                <li><a href="#" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+        <ul class="copy">
+            <li><a href="#">PRIVACY POLICY</a></li>
+            <li>© FA EXHIBITION</li>
+        </ul>
+    </footer>
+    </div>
+</body>
+</html>
